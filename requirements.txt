@@ -1,2 +1,5 @@
 botbuilder-core>=4.7.0
 aiohttp
+google.generativeai
+uuid
+requests

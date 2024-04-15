@@ -1,0 +1,36 @@
+{
+    "$schema": "https://schema.management.azure.com/schemas/2019-04-01/deploymentParameters.json#",
+    "contentVersion": "1.0.0.0",
+    "parameters": {
+        "groupName": {
+            "value": "mayank12_group"
+        },
+        "groupLocation": {
+            "value": "East US"
+        },
+        "appServiceName": {
+            "value": "desibotazure"
+        },
+        "appServicePlanName": {
+            "value": "S1"
+        },
+        "appServicePlanLocation": {
+            "value": "eastus"
+        },
+        "appServicePlanSku": {
+            "value": {
+                "name": "S1",
+                "tier": "Standard",
+                "size": "S1",
+                "family": "S",
+                "capacity": 1
+            }
+        },
+        "appId": {
+            "value": ""
+        },
+        "appSecret": {
+            "value": ""
+        }
+    }
+}
